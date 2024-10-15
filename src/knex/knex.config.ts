@@ -7,5 +7,8 @@ export const knexConfig: Knex.Config = {
     user: 'root',
     password: 'yourpassword',
     database: 'yourdatabase',
+    timezone: '+09:00',
+    connectTimeout: 30000,
   },
+  debug: false,
 };
